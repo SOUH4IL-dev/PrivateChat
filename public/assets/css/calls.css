@@ -1,0 +1,90 @@
+/* CALLS LIST */
+.calls-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #0f172a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.call:hover {
+    background: #1e293b;
+}
+
+.call-info .name {
+    color: white;
+    font-size: 14px;
+}
+
+.status {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.status.missed {
+    color: #ef4444;
+}
+
+.status.outgoing {
+    color: #22c55e;
+}
+
+.call-icon {
+    margin-left: auto;
+    color: #2563eb;
+}
+
+/* MAIN CALL AREA */
+.calls-main {
+    padding: 20px;
+}
+
+.call-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #0f172a;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.avatar.big {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.btn-call {
+    margin-left: auto;
+    background: #2563eb;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+/* FLOATING BUTTON */
+.floating-call {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #22c55e;
+    border: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
