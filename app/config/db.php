@@ -4,7 +4,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 
 use MongoDB\Client;
 
-$client = new Client("mongodb+srv://admin:YOUR_PASSWORD@cluster0.xxxx.mongodb.net/");
+$client = new Client("mongodb+srv://<chat_user>:<chatuser@!123456>@cluster0.bxxtxnu.mongodb.net/?appName=Cluster0");
 
 $db = $client->chat_app;
 
